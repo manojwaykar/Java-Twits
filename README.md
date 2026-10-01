@@ -23,3 +23,5 @@ git status
 git add .
 git commit -m "Add user registration model"
 git push -u origin feature/user-registration
+
+Done run this sequentially.
