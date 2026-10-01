@@ -8,7 +8,7 @@ def binary_search(arr, target):
         if arr[mid] == target:
             return mid
         elif arr[mid] < target:
-            low = mid  # Here lies the bug!
+            low = mid+1  # Here lies the bug!
         else:
             high = mid - 1
             
